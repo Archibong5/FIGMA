@@ -1,0 +1,363 @@
+html{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background: #2F303A;
+  color: white;
+  margin: 0 0 0 0;
+
+}
+
+.button{
+  width: 400px;
+height: 200px;
+background: #C14A4A;
+border-radius: 11px;
+text-decoration: none;
+font-size: 50px;
+color: white;
+}
+
+/* NAVIGATION */
+.navbar{
+  background: #2F303A;
+}
+
+.navbar-brand{
+  position: absolute;
+width: 120px;
+height: 120px;
+left: 162px;
+top: 35px;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+}
+
+.nav-tags{
+  margin: 0 10px;
+  color: white;
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+.soundify{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+@media (max-width: 700px) {
+  .navbar{
+    flex-direction: column;
+    max-width: 50px;
+    line-height: 4;
+    margin: auto;
+  }
+  .nav-tags{
+    flex: 1;
+  }
+}
+
+/* TOP CONTAINER */
+#top-container{
+  display: flex;
+  background: #2F303A;
+  flex: 1;
+  margin: 0 0 0 80px;
+
+
+}
+.ellipse5{
+  position: absolute;
+  top: 200px;
+}
+
+.ellipse6{
+  position: absolute;
+  top: 800px;
+}
+.text-div{
+  margin-top: 270px;
+  margin-right: 100px;
+
+}
+.woman{
+  height: 600px;
+  width: 400px;
+}
+.feel{
+  width: 800px;
+  font-style: normal;
+font-weight: 400;
+font-size: 100px;
+
+
+color: #FFFFFF;
+}
+.stream{
+  font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+
+color: #FFFFFF;
+
+}
+
+button{
+  background-color: #C14A4A;
+
+}
+
+@media (max-width: 1000px) {
+  #top-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .image-div{
+    flex: 1;
+  }
+  .text-div{
+    flex: 1;
+  }
+  .woman{
+    height: 600px;
+    width: 400px;
+    margin: 0;
+  }
+
+  .feel{
+    width: 400px;
+    font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  }
+
+  .ellipse6{
+    height: 100px;
+    width: 100px;
+  }
+
+  .ellipse5{
+    height: 100px;
+    width: 100px
+  }
+
+}
+
+/* MIDDLE CONTAINER */
+.discover{
+  width: 600px;
+height: 183px;
+left: 164px;
+top: 275px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 105px;
+
+color: white;
+
+}
+
+.icon-image{
+  width: 150px;
+height: 150px;
+background: #202027;
+}
+
+.listen{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: white;
+
+}
+
+.ff-image{
+  width: 400px;
+height: 400px;
+border-radius: 38px;
+margin-left: 20px;
+}
+
+#middle-container{
+  display: flex;
+  margin: 236px 0 100px 100px;
+  background-color: #2F303A;
+  flex: 1;
+}
+
+@media (max-width: 1000px) {
+  #middle-container{
+    flex-direction: column;
+  }
+
+  .feature{
+    flex: 1;
+
+  }
+  .icon{
+    flex: 1;
+  }
+  .discover{
+    font-size: 40px;
+
+  }
+  .icon-image{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    display: block;
+  }
+
+  .listen{
+    font-size: 40px;
+  }
+
+  .ff-image{
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* FINAL CONTAINER */
+#final-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left{
+  flex: 70%;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  flex: 20%;
+  background: #202027;
+  padding: 30px;
+  line-height: 3;
+}
+
+.sign-up{
+  margin: 10px 0;
+  width: 400px;
+height: 100px;
+background: #C14A4A;
+border-radius: 11px;
+text-decoration: none;
+font-size: 30px;
+color: white;
+text-align: center;
+}
+
+input{
+  background: #202027;
+border: 2px solid #385CDD;
+border-radius: 8px;
+width: 400px;
+height: 71px;
+}
+
+@media (max-width: 1000px) {
+  #final-container{
+    flex-direction: column;
+  }
+
+  .start{
+    font-size: 30px;
+  }
+
+  .pic{
+    margin: 10px;
+
+
+  }
+
+  .right{
+    margin: 20px;
+  }
+  .input{
+    width: 100px;
+    height: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+#footer{
+  background: #202027;
+  margin-top: 300px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.l-link{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+
+color: #FFFFFF;
+margin: 10px;
+}
+
+.r-icon{
+  margin: 10px;
+}
+
+.r-link{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+
+color: #FFFFFF;
+margin: 10px;
+}
+
+
+@media (max-width: 1000px) {
+  #footer{
+    flex-direction: row;
+    max-height: 100px;
+    flex-wrap: wrap;
+  }
+}
